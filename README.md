@@ -10,7 +10,7 @@ First, they want to create a cloud database at AWS Redshift.  So, analysts can h
 
 There are different sql database schemas.  One common schema is star schema, in which the central "fact" table can join other "dimension" tables to aggregate informantion.  In this project, the fact table "songplays" is surrounded by "songs", "artists", "users" and "time" dimesion tables (4 tables). The following diagram shows the relationship among the tables.    
 
-![picture](star_schema.png)
+<img src="star_schema.png" style="width:500px;height:340px;">
 
 
 ### AWS Redshift
