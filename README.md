@@ -60,7 +60,7 @@ Once the database is created.  We can do queries on it to extract useful informa
 
 
 #### Included files: 
-1. dwh.cfg (Redshift configuration params)
+1. dwh.cfg (Redshift configuration params--not provided here)
 2. sql_queries.py (queries for dropping/creating tables and copy/insert data into tables)
 3. create_tables.py (create tables)
 4. etl.py (copy and insert data into tables)
