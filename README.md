@@ -38,11 +38,11 @@ The entire process is described in the lecture excise ('L3 Exercise 2 - IaC' jup
 
 8. Open an incoming TCP port to access the host (cluster ednpoint) and connect to the cluster.  
 
-#### A. Create tables
+#### B. Create tables
 1. Drop all tables to have a clean start (create_tables.py). 
 2. Create 5 tables with proper column names and data types (create_tables.py), also specify some columns as distkey or sortkey. 
 
-#### B. Build ETL Processes
+#### C. Build ETL Processes
 1. Copy song_data and log_data from S3 buckets to staging_songs and staging_events tables. 
 2. Extract and transform data from staging_songs and staging_events tables with SQL SELECT statements, and insert data into different tables (etl.ipynb and sql_queries.py). 
 
