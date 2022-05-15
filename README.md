@@ -21,7 +21,7 @@ Redshift are column-oriented database management system with parallel processing
 
 #### A. Setup Redshift cluster 
 
-The entire process is described in the lecture excise ('L3 Exercise 2 - IaC' jupyter notebook) that includes the following steps. 
+The entire process is described in the following steps. 
 
 1. Create a new IAM user in the AWS account with AdministratorAccess policies attached to it.  Record the access key and secret (do not disclose it to the public).   
 2. Specifiy the cluster params for Redshift cluster configuration in the dwh.cfg file that is in the same folder as the jupyter notebook running the Redshift cluster setup. 
